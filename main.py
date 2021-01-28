@@ -1,5 +1,3 @@
-
-
 def solution(s): 
   a=sorted(s) 
   for x in range(len(a)-1):
