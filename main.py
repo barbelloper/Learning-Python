@@ -1,5 +1,18 @@
-from collections import deque
+from itertools import permutations
 
-dq = deque([1,2,3,4,5])
+numbers = '011'
+numbers1 = '11'
 
-print(sorted(dq,reverse=True))
+perlist = list(map(''.join,permutations(list(numbers),3)))
+
+print(list(set(perlist)))
+
+a=[]
+a.append(int(numbers))
+a.append(int(numbers1))
+print(a)
+
+
+
+
+
