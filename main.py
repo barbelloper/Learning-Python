@@ -1,18 +1,4 @@
-from itertools import permutations
-
-numbers = '011'
-numbers1 = '11'
-
-perlist = list(map(''.join,permutations(list(numbers),3)))
-
-print(list(set(perlist)))
-
-a=[]
-a.append(int(numbers))
-a.append(int(numbers1))
-print(a)
-
-
-
-
+n=[1,3,4,4]
+print(max(n))
+n.append(1,2,3)
 
