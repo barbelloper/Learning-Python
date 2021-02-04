@@ -1,4 +1,3 @@
-n=[1,3,4,4]
+n=['12','123','321']
 print(max(n))
-n.append(1,2,3)
-
+print(type(max(n)))
